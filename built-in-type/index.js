@@ -1,4 +1,4 @@
-//built-in-type : number, string, boolean, void, undefined, null 
+//built-in-type : number, string, boolean, void, undefined, null
 var id;
 var userId;
 var firstName;
@@ -13,3 +13,12 @@ isActive = true;
 data = null;
 fullName = firstName.concat(" ", lastName);
 console.log("User ID: ".concat(userId, ", Name: ").concat(fullName, ", Active: ").concat(isActive, ", Data: ").concat(data));
+console.log(fullName.split(""));
+console.log(fullName.split(" "));
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
+// console.log(userId.toLowerCase()); code type error
+function display() {
+    console.log("Display Function");
+}
+display();
